@@ -1,0 +1,20 @@
+From: Ivan Zakharyaschev <imz@altlinux.org>
+Subject: [PATCH] lazy
+
+Use Data.Text.Lazy (not to choke on huge inputs,
+and be able to incrementally give results).
+
+Explanation -- from the docs of Data.Text.Lazy:
+
+The representation used by this module is suitable for high
+performance use and for streaming large quantities of data. It
+provides a means to manipulate a large body of text without requiring
+that the entire content be resident in memory.
+
+Some operations, such as concat, append, reverse and cons, have better
+time complexity than their Data.Text equivalents, due to the
+underlying representation being a list of chunks. For other
+operations, lazy Texts are usually within a few percent of strict
+ones, but often with better heap usage if used in a streaming fashion.
+For data larger than available memory, or if you have tight memory
+constraints, this module will be the only option.
