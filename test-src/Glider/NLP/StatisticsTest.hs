@@ -10,7 +10,7 @@ Portability : portable
 
 module Glider.NLP.StatisticsTest (testCases) where
 
-import qualified Data.Text as T
+import qualified Data.Text.Lazy as T
 import Glider.NLP.Statistics
 import Test.HUnit
 

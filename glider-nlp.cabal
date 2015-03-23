@@ -1,5 +1,5 @@
 name:           glider-nlp
-version:        0.2
+version:        0.2.1
 cabal-version:  >=1.10
 build-type:     Simple
 author:         Krzysztof Langner
@@ -21,7 +21,7 @@ description:
 
 source-repository head
   type:     git
-  location: https://github.com/klangner/condor-nlp
+  location: https://github.com/imz/glider-nlp
 
 library
   hs-source-dirs:   src

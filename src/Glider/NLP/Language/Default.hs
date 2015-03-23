@@ -14,7 +14,7 @@ If there is no specific algorithm for yor language you can use one from this mod
 module Glider.NLP.Language.Default (isStopWord) where
     
 import Prelude hiding (length)    
-import Data.Text
+import Data.Text.Lazy
     
 
 -- | Any less then 4 characters words is marked as stop word

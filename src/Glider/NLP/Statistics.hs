@@ -16,7 +16,7 @@ module Glider.NLP.Statistics
     ) where
 
 import Prelude hiding(length)
-import Data.Text
+import Data.Text.Lazy
 import Glider.NLP.Tokenizer
 import qualified Data.List as List
 

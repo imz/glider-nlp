@@ -10,7 +10,7 @@ Portability : portable
 
 module Glider.NLP.Language.English.PorterTest (testCases) where
 
-import qualified Data.Text as T
+import qualified Data.Text.Lazy as T
 import Glider.NLP.Language.English.Porter
 import Test.HUnit
 

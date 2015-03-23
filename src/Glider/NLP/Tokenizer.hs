@@ -27,7 +27,7 @@ module Glider.NLP.Tokenizer
     ) where
 
 import Prelude hiding (null, takeWhile, dropWhile, head, tail)    
-import Data.Text
+import Data.Text.Lazy
 import Data.Char
 import qualified Data.List as List
 

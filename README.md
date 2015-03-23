@@ -23,7 +23,7 @@ countWords (docText doc)
 ### Get word frequency in the document
 
 ```haskell
-import Data.Text
+import Data.Text.Lazy
 import Glider.NLP.Statistics
 
 countWordsExample :: IO Int

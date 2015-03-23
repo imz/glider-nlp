@@ -14,7 +14,7 @@ Module contains stop words for Polish language
 module Glider.NLP.Language.Polish.StopWords (isStopWord) where
     
 import qualified Data.Set as S    
-import Data.Text
+import Data.Text.Lazy
     
 
 -- | Predicate to check if given words is a stop word

@@ -14,7 +14,7 @@ Module contains stop words for English language
 module Glider.NLP.Language.English.StopWords (isStopWord) where
     
 import qualified Data.Set as S    
-import Data.Text
+import Data.Text.Lazy
     
 
 -- | Predicate to check if given words is a stop word

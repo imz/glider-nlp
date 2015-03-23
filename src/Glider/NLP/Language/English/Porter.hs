@@ -14,7 +14,7 @@ module Glider.NLP.Language.English.Porter (stem) where
 import Control.Monad    
 import Data.Maybe
 import Data.List
-import qualified Data.Text as T
+import qualified Data.Text.Lazy as T
 
 
 -- | API stemming function

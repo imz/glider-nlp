@@ -10,7 +10,7 @@ Portability : portable
 
 module Glider.NLP.TokenizerTest (testCases) where
 
-import qualified Data.Text as T
+import qualified Data.Text.Lazy as T
 import Glider.NLP.Tokenizer
 import Test.HUnit
 
